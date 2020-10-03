@@ -15,6 +15,7 @@ export default function (state = initialState, action) {
       return {
         ...state,
         isLoading: true,
+        error:null
       };
     case API_SUCCESS:
       

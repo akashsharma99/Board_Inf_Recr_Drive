@@ -148,6 +148,10 @@ body {
   color:#7DCEA0;
   cursor: pointer;
 }
+.input-alert{
+  padding: 5px 40%;
+}
+
 @media screen and (max-width: 768px) {
   .heading {
     padding: 1rem;
