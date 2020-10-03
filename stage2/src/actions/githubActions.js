@@ -11,7 +11,7 @@ export const getGitHubData = (data) => async (dispatch) => {
   setTimeout(async () => {
     try {
       const res = await axios.get(`https://api.github.com/users/${data}`);
-      console.log(res.data);
+      //console.log(res.data);
       dispatch({
         type: API_SUCCESS,
         payload: res.data,
